@@ -1,0 +1,6 @@
+{
+  "name": "Faculty Guard",
+  "description": "A secure document portal keeping exams and academic files safe from unauthorized access and unusual downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

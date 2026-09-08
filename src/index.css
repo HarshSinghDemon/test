@@ -1,0 +1,35 @@
+:root {
+  --white: #ffffff;
+  --off-white: #fafaf9;
+  --surface: #f4f4f2;
+  --border: #e8e6e1;
+  --border-hi: #d4d0c8;
+  --ink: #111110;
+  --ink-2: #1c1c1a;
+  --soft: #72716d;
+  --softer: #a8a5a0;
+  --red: #c8102e;
+  --red-light: #fdf2f4;
+  --red-mid: #f5c5cc;
+  --red-dark: #9e0d24;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--ink);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code, pre, .mono {
+  font-family: 'JetBrains Mono', monospace;
+}
